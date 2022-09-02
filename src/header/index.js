@@ -20,30 +20,32 @@ const Headermain = () => {
           <Link className='navbar-brand nav_ac' to='/'>
             {logotext}
           </Link>
-          <div className='d-flex align-items-center mid-navbar-rwd'>
-            <ul className='d-flex  flex-row align-items-center m-0 py-1'>
-              <li className=' menu__button nav_ac'>
-                <Link to='/home' className=''>
-                  Home
-                </Link>
-              </li>
-              <li className='menu__button  nav_ac'>
-                <Link to='/portfolio' className=''>
-                  Portfolio
-                </Link>
-              </li>
-              <li className='menu__button  nav_ac'>
-                <Link to='/about' className=''>
-                  About
-                </Link>
-              </li>
-              <li className='menu__button  nav_ac'>
-                <Link to='/contact' className=''>
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
+          {!isActive ? null : (
+            <div className='d-flex align-items-center mid-navbar-rwd '>
+              <ul className='d-flex  flex-row align-items-center m-0 py-1'>
+                <li className=' menu__button nav_ac'>
+                  <Link to='/home' className=''>
+                    Home
+                  </Link>
+                </li>
+                <li className='menu__button  nav_ac'>
+                  <Link to='/projects' className=''>
+                    Projects
+                  </Link>
+                </li>
+                <li className='menu__button  nav_ac'>
+                  <Link to='/about' className=''>
+                    About
+                  </Link>
+                </li>
+                <li className='menu__button  nav_ac'>
+                  <Link to='/contact' className=''>
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          )}
           <div className='d-flex align-items-center'>
             <Themetoggle />
             <button className='menu__button  nav_ac' onClick={handleToggle}>
@@ -65,10 +67,10 @@ const Headermain = () => {
                   <li className='menu_item'>
                     <Link
                       onClick={handleToggle}
-                      to='/portfolio'
+                      to='/projects'
                       className='my-3'
                     >
-                      Portfolio
+                      Projects
                     </Link>
                   </li>
                   <li className='menu_item'>
@@ -88,9 +90,7 @@ const Headermain = () => {
           </div>
           <div className='menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3'>
             <div className='d-flex'>
-              <a href={socialprofils.facebook}>Facebook</a>
-              <a href={socialprofils.github}>Github</a>
-              <a href={socialprofils.twitter}>Twitter</a>
+              <p className='nav_ac'>Why don't you go for it ?</p>
             </div>
           </div>
         </div>

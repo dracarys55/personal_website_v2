@@ -1,9 +1,13 @@
 import my_pic from './assets/images/my_pic.jpg';
+import projectimage_1 from './assets/projectImages/H5.png';
+import projectimage_2 from './assets/projectImages/S8.png';
+import projectimage_3 from './assets/projectImages/E_commerce.png';
+import projectimage_4 from './assets/projectImages/waiting.jpg';
+
 const logotext = 'J A C K';
 const meta = {
   title: 'Jack Liu',
-  description:
-    'I’m John Doe data scientist _ Full stack devloper,currently working in Berlin',
+  description: 'I’m Jack Liu frontend devloper.',
 };
 
 const introdata = {
@@ -84,76 +88,39 @@ const services = [
 
 const dataportfolio = [
   {
-    img: 'https://picsum.photos/400/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_1,
+    desctiption: 'HTML5 多國語系遊戲',
     link: '#',
   },
   {
-    img: 'https://picsum.photos/400/800/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_2,
+    desctiption: 'S 8 遊戲官方網站',
     link: '#',
   },
   {
-    img: 'https://picsum.photos/400/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_3,
+    desctiption: ' 電 商 購 物 網 站 ',
     link: '#',
   },
   {
-    img: 'https://picsum.photos/400/600/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_4,
+    desctiption: '未來即將有更多專案，請稍待。',
     link: '#',
   },
   {
-    img: 'https://picsum.photos/400/300/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_4,
+    desctiption: '未來即將有更多專案，請稍待。',
     link: '#',
   },
   {
-    img: 'https://picsum.photos/400/700/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_4,
+    desctiption: '未來即將有更多專案，請稍待。',
     link: '#',
   },
 
   {
-    img: 'https://picsum.photos/400/600/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/300/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/550/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
-    link: '#',
-  },
-  {
-    img: 'https://picsum.photos/400/700/?grayscale',
-    desctiption:
-      'The wisdom of life consists in the elimination of non-essentials.',
+    img: projectimage_4,
+    desctiption: '未來即將有更多專案，請稍待。',
     link: '#',
   },
 ];
@@ -171,12 +138,11 @@ const contactConfig = {
 };
 
 const socialprofils = {
-  github: 'https://github.com',
-  facebook: 'https://facebook.com',
-  linkedin: 'https://linkedin.com',
-  twitter: 'https://twitter.com',
-  youtube: 'https://youtube.com',
-  twitch: 'https://twitch.com',
+  github: 'https://github.com/dracarys55/',
+  medium: 'https://jackliu-61470.medium.com/',
+  linkedin: 'https://www.linkedin.com/in/jack-liu-2b95a0121/',
+  facebook: 'https://www.facebook.com/profile.php?id=100002098647412',
+  instagram: 'https://www.instagram.com/jack_liu_555/',
 };
 export {
   meta,
