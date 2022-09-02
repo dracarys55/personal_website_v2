@@ -1,5 +1,5 @@
 import my_pic from './assets/images/my_pic.jpg';
-const logotext = 'JACK';
+const logotext = 'J A C K';
 const meta = {
   title: 'Jack Liu',
   description:
