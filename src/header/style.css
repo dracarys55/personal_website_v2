@@ -201,3 +201,9 @@ div.nav_ac_header {
   color: var(--text-color-2);
   margin-right: 10px;
 }
+
+@media (max-width: 646px) {
+  div.mid-navbar-rwd {
+    display: none !important;
+  }
+}

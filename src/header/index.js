@@ -20,7 +20,7 @@ const Headermain = () => {
           <Link className='navbar-brand nav_ac' to='/'>
             {logotext}
           </Link>
-          <div className='d-flex align-items-center'>
+          <div className='d-flex align-items-center mid-navbar-rwd'>
             <ul className='d-flex  flex-row align-items-center m-0 py-1'>
               <li className=' menu__button nav_ac'>
                 <Link to='/home' className=''>
