@@ -23,7 +23,7 @@ const Headermain = () => {
           {!isActive ? null : (
             <div className='d-flex align-items-center mid-navbar-rwd '>
               <ul className='d-flex  flex-row align-items-center m-0 py-1'>
-                <li className=' menu__button nav_ac'>
+                <li className='menu__button nav_ac'>
                   <Link to='/home' className=''>
                     Home
                   </Link>

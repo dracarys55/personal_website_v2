@@ -22,19 +22,45 @@
 }
 div.nav_ac_header {
   background: var(--primary-color);
+  padding: 0.2rem 0rem;
 }
 .nav_ac {
-  padding: 5px 15px;
+  padding: 5px 18px;
   margin: 0;
   border: unset;
   background: var(--primary-color);
   font-size: 1.25rem;
   font-family: Marcellus;
   color: var(--text-color-2);
-  line-height: 2;
   height: 50px;
   font-weight: bold;
   z-index: 1000;
+}
+
+li.menu__button.nav_ac {
+  position: relative;
+}
+li.menu__button.nav_ac a::after {
+  content: '';
+  display: block;
+  width: 0;
+  position: absolute;
+  left: 50%;
+  height: 2px;
+  background: var(--text-color-2);
+  transition: cubic-bezier(0.77, 0, 0.18, 1) 1s;
+}
+li.menu__button.nav_ac a:hover {
+  text-decoration: none !important;
+}
+
+li.menu__button.nav_ac a:hover::after {
+  width: 80%;
+  left: 10%;
+}
+
+li.menu__button.nav_ac a {
+  transition: cubic-bezier(0.77, 0, 0.18, 1) 1s;
 }
 
 .nav_ac:hover {
