@@ -13,58 +13,54 @@ const meta = {
 const introdata = {
   title: 'I’m Jack Liu.',
   animated: {
-    first: 'I love coding',
-    second: 'I code cool websites',
-    third: 'I develop mobile apps',
+    first: 'A Front-End Engineer',
+    second: 'An English Teacher',
+    third: 'A Fitness Enthusiast',
   },
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum',
+    'Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript.',
   your_img_url: my_pic,
 };
 
 const dataabout = {
-  title: 'abit about my self',
-  aboutme:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.',
+  title: 'About myself',
+  aboutme: `Hello, my name is Jack. I am currently a 
+  front-end engineer with one year of work experience. 
+  I mainly use javaScript and TypeScript for development,
+   and for front-end framework I mainly use React. 
+   I also have a golden certificate from TOEIC English Test,
+   and have been an English tutor for almost three years.
+    `,
 };
+
 const worktimeline = [
   {
-    jobtitle: 'Designer of week',
-    where: 'YAdfi',
-    date: '2020',
-  },
-  {
-    jobtitle: 'Designer of week',
-    where: 'Jamalya',
-    date: '2019',
-  },
-  {
-    jobtitle: 'Designer of week',
-    where: 'ALquds',
-    date: '2019',
+    jobtitle: 'Front-end Engineer',
+    where: 'Hengwei Technology Co., Ltd',
+    date: '2020.09 - 2021.08',
   },
 ];
 
 const skills = [
   {
-    name: 'Python',
-    value: 90,
-  },
-  {
-    name: 'Djano',
-    value: 85,
-  },
-  {
-    name: 'Javascript',
+    name: 'JavaScript',
     value: 80,
   },
   {
-    name: 'React',
-    value: 60,
+    name: 'TypeScript',
+    value: 70,
   },
   {
-    name: 'Jquery',
-    value: 85,
+    name: 'React',
+    value: 70,
+  },
+  {
+    name: 'Node.js',
+    value: 70,
+  },
+  {
+    name: 'Jenkins',
+    value: 60,
   },
 ];
 
