@@ -9,6 +9,7 @@ import {
   skills,
   services,
 } from '../../content_option';
+import { dataMylife } from '../../content_option';
 
 export const About = () => {
   return (
@@ -79,21 +80,23 @@ export const About = () => {
             })}
           </Col>
         </Row>
-        <Row className='sec_sp'>
-          <Col lang='5'>
-            <h3 className='color_sec py-4'>services</h3>
-          </Col>
-          <Col lg='7'>
-            {services.map((data, i) => {
-              return (
-                <div className='service_ py-4' key={i}>
-                  <h5 className='service__title'>{data.title}</h5>
-                  <p className='service_desc'>{data.description}</p>
-                </div>
-              );
-            })}
+        <Row className='mb-5 mt-3'>
+          <Col lg='8'>
+            <h2 className='display-4 mb-4'>More About Me</h2>
           </Col>
         </Row>
+        <div className='sec_sp small_pic_ho'>
+          {dataMylife.map((pic, i) => {
+            return (
+              <div key={i} className='small_pic'>
+                <img src={pic.img} alt='/' />
+                <div className='content'>
+                  <p>{pic.desctiption}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </Container>
     </HelmetProvider>
   );

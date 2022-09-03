@@ -15,7 +15,7 @@
   position: relative;
   background: var(--secondary-color);
   padding: 6px;
-  border: 1px solid var(--secondary-color);
+  /* border: 1px solid var(--secondary-color); */
   transition: 0.3s ease;
   font-size: 0;
   min-height: 300px;
@@ -42,7 +42,7 @@
   width: 100%;
   transition: 0.3s ease-in-out;
   opacity: 0;
-  border: 1px solid black;
+  /*   border: 1px solid black; */
 }
 
 .po_item .content {
@@ -54,6 +54,7 @@
 
 .po_item:hover {
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 90%;
 }
 
 .po_item:hover .content {

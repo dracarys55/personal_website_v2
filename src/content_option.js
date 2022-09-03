@@ -4,6 +4,16 @@ import projectimage_2 from './assets/projectImages/S8.png';
 import projectimage_3 from './assets/projectImages/E_commerce.png';
 import projectimage_4 from './assets/projectImages/waiting.jpg';
 
+import dataMylife_img_1 from './assets/projectImages/dataMylife_img_14519.jpg';
+import dataMylife_img_2 from './assets/projectImages/dataMylife_img_15485.jpg';
+import dataMylife_img_3 from './assets/projectImages/dataMylife_img_15616.jpg';
+import dataMylife_img_4 from './assets/projectImages/dataMylife_img_84892.jpg';
+import dataMylife_img_5 from './assets/projectImages/dataMylife_img_8946.jpg';
+import dataMylife_img_6 from './assets/projectImages/dataMylife_img_121459.jpg';
+import dataMylife_img_7 from './assets/projectImages/dataMylife_img_85461.jpg';
+import dataMylife_img_8 from './assets/projectImages/dataMylife_img_12232.jpg';
+import dataMylife_img_9 from './assets/projectImages/dataMylife_img_156489.jpg';
+
 const logotext = 'J A C K';
 const meta = {
   title: 'Jack Liu',
@@ -121,6 +131,45 @@ const dataportfolio = [
   },
 ];
 
+const dataMylife = [
+  {
+    img: dataMylife_img_1,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_2,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_3,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_4,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_5,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_6,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_7,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_8,
+    desctiption: '5415616',
+  },
+  {
+    img: dataMylife_img_9,
+    desctiption: '5415616',
+  },
+];
+
 const contactConfig = {
   YOUR_EMAIL: 'name@domain.com',
   YOUR_FONE: '(555)123-4567',
@@ -151,4 +200,5 @@ export {
   contactConfig,
   socialprofils,
   logotext,
+  dataMylife,
 };

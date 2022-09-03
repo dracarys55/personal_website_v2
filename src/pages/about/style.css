@@ -1,100 +1,153 @@
 .sec_sp {
-    margin-bottom: calc(3rem + 5.128vw)
+  margin-bottom: calc(3rem + 5.128vw);
 }
 
 .table td,
 .table th {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 .t_border {
-    border-color: var(--text-color) !important;
+  border-color: var(--text-color) !important;
 }
 
 .progress-title {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 15px 0 20px;
-    font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px 0 20px;
+  font-family: 'Raleway';
 }
 
 .progress {
-    height: 5px;
-    background: var(--secondary);
-    border-radius: 0;
-    box-shadow: none;
-    margin-bottom: 30px;
-    overflow: visible;
+  height: 5px;
+  background: var(--secondary);
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 30px;
+  overflow: visible;
 }
 
 .progress .progress-bar {
-    position: relative;
-    background: var(--text-color);
-    animation: animate-positive 2s;
-    overflow: visible;
-    opacity: 0.9;
+  position: relative;
+  background: var(--text-color);
+  animation: animate-positive 2s;
+  overflow: visible;
+  opacity: 0.9;
 }
 
 .progress .progress-value {
-    position: absolute;
-    top: -30px;
-    right: 8px;
-    font-size: 17px;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--text-color);
+  position: absolute;
+  top: -30px;
+  right: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--text-color);
 }
 
 @-webkit-keyframes animate-positive {
-    0% {
-        width: 0%;
-    }
+  0% {
+    width: 0%;
+  }
 }
 
 @keyframes animate-positive {
-    0% {
-        width: 0%;
-    }
+  0% {
+    width: 0%;
+  }
 }
 
 .section-title {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .service__title {
-    padding: 8px 0;
-    border-bottom: solid 2px var(--secondary-color);
+  padding: 8px 0;
+  border-bottom: solid 2px var(--secondary-color);
 }
 
 .service-section .service-category-title {
-    padding-bottom: 4px;
+  padding-bottom: 4px;
+}
+.small_pic_ho {
+  column-width: 15em;
+  -moz-column-width: 15em;
+  -webkit-column-width: 15em;
+  column-gap: 4rem;
+  -moz-column-gap: 4rem;
+  -webkit-column-gap: 4rem;
+}
+.small_pic {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0.5rem auto;
+  position: relative;
+  background: var(--secondary-color);
+  padding: 6px;
+  border: 1px solid var(--secondary-color);
+  transition: 0.3s ease;
+  font-size: 0;
+  min-height: 250px;
+}
+.small_pic img {
+  max-width: 100%;
 }
 
+.small_pic .content {
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--overlay-color);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
 
+.small_pic .content {
+  opacity: 0;
+  transition-delay: 1s;
+  transition: 0.3s ease;
+  font-size: 20px;
+}
+.small_pic:hover .content {
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+  opacity: 1;
+}
 /*! CSS Used keyframes */
 
 @-webkit-keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
 }
 
 @keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-    }
-    to {
-        opacity: 1;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
 }
