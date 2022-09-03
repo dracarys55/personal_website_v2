@@ -171,15 +171,15 @@ const dataMylife = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: 'name@domain.com',
-  YOUR_FONE: '(555)123-4567',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ',
+  YOUR_EMAIL: 's6263269@gmail.com',
+  YOUR_FONE: '(+886)979-760-220',
+  description: `I’m  currently looking for new opportunities, my inbox is always open. 
+    Whether you have a question or just want to say hi, let me know !!`,
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: 'service_id',
-  YOUR_TEMPLATE_ID: 'template_id',
-  YOUR_USER_ID: 'user_id',
+  YOUR_SERVICE_ID: 'service_zlgdl49',
+  YOUR_TEMPLATE_ID: 'template_n9qo85a',
+  YOUR_USER_ID: 'KgMuF4M5OeD-w2wDF',
 };
 
 const socialprofils = {
