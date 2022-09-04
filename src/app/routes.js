@@ -21,9 +21,9 @@ const AnimatedSwitch = withRouter(({ location }) => (
     >
       <Switch location={location}>
         <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/projects' component={Project} />
-        <Route path='/contact' component={ContactUs} />
+        <Route path='#about' component={About} />
+        <Route path='#projects' component={Project} />
+        <Route path='#contact' component={ContactUs} />
         <Route path='*' component={Home} />
       </Switch>
     </CSSTransition>
