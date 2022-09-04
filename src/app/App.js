@@ -21,7 +21,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename='/www.jackliu.site'>
+    <Router>
       <div className='cursor__dot'>
         <AnimatedCursor
           innerSize={15}
