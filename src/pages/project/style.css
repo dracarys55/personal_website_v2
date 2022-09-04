@@ -54,7 +54,7 @@
 
 .po_item:hover {
   box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 90%;
+  border-radius: 60%;
 }
 
 .po_item:hover .content {
@@ -78,4 +78,10 @@
 
 .po_item .content a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 567px) {
+  .po_item {
+    min-height: auto;
+  }
 }
