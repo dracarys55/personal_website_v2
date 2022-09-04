@@ -74,10 +74,24 @@
   padding: 4px 8px;
   text-align: center;
   font-size: 1rem;
+  margin: 3px 0px 7px 0px;
 }
 
 .po_item .content a:hover {
   text-decoration: none;
+}
+a.ac_btn {
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  cursor: pointer !important;
+}
+
+a.ac_btn:hover {
+  box-shadow: 0px 1px 3px var(--text-color), 0px -1px 3px var(--text-color);
+}
+
+a.ac_btn:hover .one {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 @media (max-width: 567px) {

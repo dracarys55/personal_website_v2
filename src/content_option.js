@@ -74,24 +74,6 @@ const skills = [
   },
 ];
 
-const services = [
-  {
-    title: 'UI & UX Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
-  },
-  {
-    title: 'Mobile Apps',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
-  },
-  {
-    title: 'Wordpress Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.',
-  },
-];
-
 const dataportfolio = [
   {
     img: projectimage_1,
@@ -106,7 +88,7 @@ const dataportfolio = [
   {
     img: projectimage_3,
     desctiption: ' 電 商 購 物 網 站 ',
-    link: '#',
+    link: 'https://supershop54.herokuapp.com/',
   },
   {
     img: projectimage_4,
@@ -195,7 +177,6 @@ export {
   dataportfolio,
   worktimeline,
   skills,
-  services,
   introdata,
   contactConfig,
   socialprofils,
