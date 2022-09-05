@@ -34,14 +34,16 @@ export const Project = () => {
                   >
                     view project
                   </a>
-                  <a
-                    target='_blank'
-                    rel='noreferrer'
-                    className='ac_btn'
-                    href={data.link}
-                  >
-                    view Github
-                  </a>
+                  {data.github ? (
+                    <a
+                      target='_blank'
+                      rel='noreferrer'
+                      className='ac_btn'
+                      href={data.github}
+                    >
+                      view Github
+                    </a>
+                  ) : null}
                 </div>
               </div>
             );

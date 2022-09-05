@@ -84,11 +84,13 @@ const dataportfolio = [
     img: projectimage_2,
     desctiption: 'S 8 遊戲官方網站',
     link: '#',
+    github: '#',
   },
   {
     img: projectimage_3,
     desctiption: ' 電 商 購 物 網 站 ',
-    link: 'https://supershop54.herokuapp.com/',
+    link: 'https://github.com/dracarys55/E-commerce',
+    github: 'https://supershop54.herokuapp.com/',
   },
   {
     img: projectimage_4,
