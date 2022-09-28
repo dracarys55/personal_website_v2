@@ -66,7 +66,7 @@ export const ContactUs = () => {
 
   return (
     <HelmetProvider>
-      <Container>
+      <Container className='Contact-section'>
         <Helmet>
           <meta charSet='utf-8' />
           <title>{meta.title} | Contact</title>
@@ -95,8 +95,8 @@ export const ContactUs = () => {
           <Col lg='5' className='mb-5'>
             <h3 className='color_sec py-4'>Get in touch</h3>
             <address>
-              <strong>Email:</strong>{' '}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
+              <strong>Email:</strong>
+              <a className='email' href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />

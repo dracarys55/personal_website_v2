@@ -10,6 +10,9 @@
 .t_border {
   border-color: var(--text-color) !important;
 }
+.About-section {
+  transition: cubic-bezier(0.77, 0, 0.18, 1) 1s;
+}
 
 .progress-title {
   font-size: 16px;
