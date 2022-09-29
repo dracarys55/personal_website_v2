@@ -1,0 +1,10 @@
+.thementoggle-button {
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.7s;
+  font-size: 1.5rem;
+  border-radius: 10%;
+}
+
+.thementoggle-button:hover {
+  background-color: rgb(141, 140, 140);
+}

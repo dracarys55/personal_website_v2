@@ -4,9 +4,12 @@ import { VscGrabber, VscClose } from 'react-icons/vsc';
 import { Link } from 'react-router-dom';
 import { logotext } from '../content_option';
 import Themetoggle from '../components/themetoggle';
+import { useTranslation } from 'react-i18next';
+import Langtoggle from '../components/langtoggle';
 
 const Headermain = () => {
   const [isActive, setActive] = useState('true');
+  const { t } = useTranslation();
 
   const handleToggle = () => {
     setActive(!isActive);
@@ -25,7 +28,7 @@ const Headermain = () => {
               <ul className='d-flex  flex-row align-items-center m-0 py-1'>
                 <li className='menu__button nav_ac'>
                   <Link to='/home' className=''>
-                    Home
+                    {t('header.home')}
                   </Link>
                 </li>
                 <li className='menu__button  nav_ac'>
@@ -47,6 +50,7 @@ const Headermain = () => {
             </div>
           )}
           <div className='d-flex align-items-center'>
+            <Langtoggle />
             <Themetoggle />
             <button
               className='menu__button nav_ac navigation_toggle'
