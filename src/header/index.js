@@ -33,17 +33,17 @@ const Headermain = () => {
                 </li>
                 <li className='menu__button  nav_ac'>
                   <Link to='/projects' className=''>
-                    Projects
+                    {t('header.projects')}
                   </Link>
                 </li>
                 <li className='menu__button  nav_ac'>
                   <Link to='/about' className=''>
-                    About
+                    {t('header.about')}
                   </Link>
                 </li>
                 <li className='menu__button  nav_ac'>
                   <Link to='/contact' className=''>
-                    Contact
+                    {t('header.contact')}
                   </Link>
                 </li>
               </ul>

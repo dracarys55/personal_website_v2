@@ -1,5 +1,8 @@
 {
   "header": {
-    "home": "主頁"
+    "home": "主頁",
+    "projects": "作品集",
+    "about": "關於我",
+    "contact": "聯絡我"
   }
 }
