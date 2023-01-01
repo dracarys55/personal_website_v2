@@ -1,5 +1,12 @@
+[lang='zh-TW'] {
+  --bg-----------color: sans-serif;
+}
+[lang='en'] {
+  --bg-----------color: Marcellus;
+}
+
 * {
-  font-family: Marcellus !important;
+  font-family: var(--bg-----------color) !important;
 }
 :root {
   --bg-color: #0c0c0c;

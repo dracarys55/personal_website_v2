@@ -10,7 +10,8 @@ import Langtoggle from '../components/langtoggle';
 const Headermain = () => {
   const [isActive, setActive] = useState('true');
   const { t } = useTranslation();
-
+  const { i18n } = useTranslation();
+  console.log(i18n.language);
   const handleToggle = () => {
     setActive(!isActive);
     document.body.classList.toggle('ovhidden');
