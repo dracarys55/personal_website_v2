@@ -69,7 +69,7 @@ const Headermain = () => {
                 <ul className='the_menu'>
                   <li className='menu_item '>
                     <Link onClick={handleToggle} to='/' className='my-3'>
-                      Home
+                      {t('header.home')}
                     </Link>
                   </li>
                   <li className='menu_item'>
@@ -78,18 +78,17 @@ const Headermain = () => {
                       to='/projects'
                       className='my-3'
                     >
-                      Projects
+                      {t('header.projects')}
                     </Link>
                   </li>
                   <li className='menu_item'>
                     <Link onClick={handleToggle} to='/about' className='my-3'>
-                      About
+                      {t('header.about')}
                     </Link>
                   </li>
                   <li className='menu_item'>
                     <Link onClick={handleToggle} to='/contact' className='my-3'>
-                      {' '}
-                      Contact
+                      {t('header.contact')}
                     </Link>
                   </li>
                 </ul>

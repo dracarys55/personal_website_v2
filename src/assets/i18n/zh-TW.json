@@ -1,8 +1,19 @@
 {
   "header": {
     "home": "主頁",
-    "projects": "作品集",
-    "about": "關於我",
-    "contact": "聯絡我"
-  }
+    "projects": "參與專案",
+    "about": "工作經歷",
+    "contact": "聯絡方式"
+  },
+  "introdata": {
+    "title": "我是 Jack Liu",
+    "animated": {
+      "first": "是一名前端工程師。",
+      "second": "是一名英語老師。",
+      "third": "也是一位健身愛好者。"
+    },
+    "description": "喜歡學習各種東西，尤其是語言。無論是計算機語言還是人類語言。對了，我使用 JavaScript 製作各式各樣很酷的網站。"
+  },
+  "myProject": "參與專案",
+  "contactMe": "找我聊聊 !"
 }

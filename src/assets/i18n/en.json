@@ -4,5 +4,16 @@
     "projects": "Projects",
     "about": "About",
     "contact": "Contact"
-  }
+  },
+  "introdata": {
+    "title": "I’m Jack Liu.",
+    "animated": {
+      "first": "A Front-End Engineer",
+      "second": "An English Teacher",
+      "third": "A Fitness Enthusiast"
+    },
+    "description": "Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript."
+  },
+  "myProject": "My Project",
+  "contactMe": "Contact Me"
 }
