@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.46934ba0.chunk.css",
-    "main.js": "/static/js/main.26b0aed4.chunk.js",
-    "main.js.map": "/static/js/main.26b0aed4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.967f7f02.js",
-    "runtime-main.js.map": "/static/js/runtime-main.967f7f02.js.map",
+    "main.css": "/static/css/main.b8a6aeb2.chunk.css",
+    "main.js": "/static/js/main.a0c2ecb7.chunk.js",
+    "main.js.map": "/static/js/main.a0c2ecb7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.18ffad03.js",
+    "runtime-main.js.map": "/static/js/runtime-main.18ffad03.js.map",
     "static/css/2.31ff0196.chunk.css": "/static/css/2.31ff0196.chunk.css",
-    "static/js/2.d97c852c.chunk.js": "/static/js/2.d97c852c.chunk.js",
-    "static/js/2.d97c852c.chunk.js.map": "/static/js/2.d97c852c.chunk.js.map",
-    "static/js/3.aa83c1a7.chunk.js": "/static/js/3.aa83c1a7.chunk.js",
-    "static/js/3.aa83c1a7.chunk.js.map": "/static/js/3.aa83c1a7.chunk.js.map",
+    "static/js/2.5b0d427a.chunk.js": "/static/js/2.5b0d427a.chunk.js",
+    "static/js/2.5b0d427a.chunk.js.map": "/static/js/2.5b0d427a.chunk.js.map",
+    "static/js/3.e42a13c9.chunk.js": "/static/js/3.e42a13c9.chunk.js",
+    "static/js/3.e42a13c9.chunk.js.map": "/static/js/3.e42a13c9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.31ff0196.chunk.css.map": "/static/css/2.31ff0196.chunk.css.map",
-    "static/css/main.46934ba0.chunk.css.map": "/static/css/main.46934ba0.chunk.css.map",
-    "static/js/2.d97c852c.chunk.js.LICENSE.txt": "/static/js/2.d97c852c.chunk.js.LICENSE.txt",
+    "static/css/main.b8a6aeb2.chunk.css.map": "/static/css/main.b8a6aeb2.chunk.css.map",
+    "static/js/2.5b0d427a.chunk.js.LICENSE.txt": "/static/js/2.5b0d427a.chunk.js.LICENSE.txt",
     "static/media/E_commerce.a8ae7ada.png": "/static/media/E_commerce.a8ae7ada.png",
-    "static/media/H5.3ae87f5a.png": "/static/media/H5.3ae87f5a.png",
     "static/media/S8.8728d65d.png": "/static/media/S8.8728d65d.png",
     "static/media/dataMylife_img_121459.0fa1b188.jpg": "/static/media/dataMylife_img_121459.0fa1b188.jpg",
     "static/media/dataMylife_img_12232.de2ad174.jpg": "/static/media/dataMylife_img_12232.de2ad174.jpg",
@@ -27,13 +26,14 @@
     "static/media/dataMylife_img_85461.fe664dd4.jpg": "/static/media/dataMylife_img_85461.fe664dd4.jpg",
     "static/media/dataMylife_img_8946.91082168.jpg": "/static/media/dataMylife_img_8946.91082168.jpg",
     "static/media/my_pic.b6b98c49.jpg": "/static/media/my_pic.b6b98c49.jpg",
+    "static/media/rise_of_elves.580d3d46.png": "/static/media/rise_of_elves.580d3d46.png",
     "static/media/waiting.fadcc3c1.jpg": "/static/media/waiting.fadcc3c1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.967f7f02.js",
+    "static/js/runtime-main.18ffad03.js",
     "static/css/2.31ff0196.chunk.css",
-    "static/js/2.d97c852c.chunk.js",
-    "static/css/main.46934ba0.chunk.css",
-    "static/js/main.26b0aed4.chunk.js"
+    "static/js/2.5b0d427a.chunk.js",
+    "static/css/main.b8a6aeb2.chunk.css",
+    "static/js/main.a0c2ecb7.chunk.js"
   ]
 }
