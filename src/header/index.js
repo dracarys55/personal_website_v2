@@ -14,7 +14,7 @@ const Headermain = () => {
   console.log(i18n.language);
   const handleToggle = () => {
     setActive(!isActive);
-    document.body.classList.toggle('ovhidden');
+    /* document.body.classList.toggle('ovhidden'); */
   };
 
   return (
