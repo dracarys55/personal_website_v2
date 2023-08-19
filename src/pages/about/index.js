@@ -2,10 +2,12 @@ import React from 'react';
 import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
-import { dataabout, meta, worktimeline, skills } from '../../content_option';
+import { meta, worktimeline, skills } from '../../content_option';
 import { dataMylife } from '../../content_option';
+import { useTranslation } from 'react-i18next';
 
 export const About = () => {
+  const { t } = useTranslation();
   return (
     <HelmetProvider>
       <Container className='About-section'>
@@ -16,23 +18,23 @@ export const About = () => {
         </Helmet>
         <Row className='mb-5 mt-3'>
           <Col lg='8'>
-            <h1 className='display-4 mb-4'>About me</h1>
+            <h1 className='display-4 mb-4'>{t("aboutPage.title")}</h1>
             <hr className='t_border my-4 ml-0 text-left' />
           </Col>
         </Row>
         <Row className='sec_sp'>
           <Col lg='5'>
-            <h3 className='color_sec py-4'>{dataabout.title}</h3>
+            <h3 className='color_sec py-4'>{t("aboutPage.aboutMe")}</h3>
           </Col>
           <Col lg='7' className='d-flex align-items-center'>
-            <div>
-              <p>{dataabout.aboutme}</p>
+            <div >
+              <p >{t("aboutPage.aboutMeContent")}</p>
             </div>
           </Col>
         </Row>
         <Row className=' sec_sp'>
           <Col lg='5'>
-            <h3 className='color_sec py-4'>Work Timline</h3>
+            <h3 className='color_sec py-4'>{t("aboutPage.workTimeline")}</h3>
           </Col>
           <Col lg='7'>
             <table className='table caption-top'>
@@ -40,9 +42,9 @@ export const About = () => {
                 {worktimeline.map((data, i) => {
                   return (
                     <tr key={i}>
-                      <th scope='row'>{data.jobtitle}</th>
-                      <td>{data.where}</td>
-                      <td>{data.date}</td>
+                      <th scope='row'>{t(`aboutPage.${data.jobtitle}`)}</th>
+                      <td>{t(`aboutPage.${data.where}`)}</td>
+                      <td>{t(`aboutPage.${data.date}`)}</td>
                     </tr>
                   );
                 })}

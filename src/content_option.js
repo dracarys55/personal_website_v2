@@ -21,35 +21,42 @@ const meta = {
 };
 
 const introdata = {
-  title: 'I’m Jack Liu.',
+/*   title: 'I’m Jack Liu.',
   animated: {
     first: 'A Front-End Engineer',
     second: 'An English Teacher',
     third: 'A Fitness Enthusiast',
   },
   description:
-    'Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript.',
+    'Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript.', */
   your_img_url: my_pic,
 };
 
 const dataabout = {
-  title: 'About myself',
+  /* title: 'About myself',
   aboutme: `Hello, my name is Jack. I am currently a 
   front-end engineer with one year of work experience. 
   I mainly use javaScript and TypeScript for development,
    and for front-end framework I mainly use React. 
    I also have a golden certificate from TOEIC English Test,
    and have been an English tutor for almost three years.
-    `,
+    `, */
 };
 
 const worktimeline = [
   {
-    jobtitle: 'Front-end Engineer',
-    where: 'Hengwei Technology Co., Ltd',
-    date: '2020.09 - 2021.08',
+    jobtitle: 'jobTitle_1',
+    where: 'where_1',
+    date: 'date_1',
   },
 ];
+
+/* {
+  jobtitle: 'Front-end Engineer',
+  where: 'Hengwei Technology Co., Ltd',
+  date: '2020.09 - 2021.08',
+}, */
+
 
 const skills = [
   {
@@ -157,7 +164,7 @@ const dataMylife = [
 const contactConfig = {
   YOUR_EMAIL: 's6263269@gmail.com',
   YOUR_FONE: '(+886)979-760-220',
-  description: `I’m  currently looking for new opportunities, my inbox is always open. 
+  description: `Always looking for exciting projects to join, my inbox is always open. 
     Whether you have a question or just want to say hi, let me know !!`,
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/

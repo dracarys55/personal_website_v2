@@ -14,6 +14,16 @@
     },
     "description": "Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript."
   },
+  "aboutPage":{
+    "title":"About me",
+    "aboutMe": "About myself",
+    "aboutMeContent": "Hello, my name is Jack. I am currently a  front-end engineer with two more years of work experience.I mainly use javaScript and TypeScript for development,and for front-end framework I mainly use React.I also have a golden certificate from TOEIC English Test,and have been an English tutor for almost three years.",
+    "workTimeline":"Work Timline",
+    "workTimelineContent":"Work Timline",
+    "jobTitle_1": "Front-end Engineer",
+    "where_1": "Hengwei Technology Co., Ltd",
+    "date_1": "2020.09 - 2021.08"
+  },
   "myProject": "My Project",
   "contactMe": "Contact Me"
 }

@@ -14,6 +14,17 @@
     },
     "description": "喜歡學習各種東西，尤其是語言。無論是計算機語言還是人類語言。對了，我使用 JavaScript 製作各式各樣很酷的網站。"
   },
+  "aboutPage":{
+    "title":"關於我",
+    "aboutMe": "自我介紹",
+    "aboutMeContent": "你好，我的名字是 Jack。我目前是一位前端工程師，有兩年左右的工作經驗。我主要使用 JavaScript 和 TypeScript 進行開發，至於前端框架，我主要使用 React。此外，我還擁有 TOEIC 英語測試的金牌證書 (910)，並且擔任英語家教將近三年的時間。",
+    "workTimeline":"工作經歷",
+    "workTimelineContent":"Work Timline",
+    "jobTitle_1":"前端工程師",
+    "where_1":"恆為科技",
+    "date_1":"2020.09 - 2021.08"
+    },
+
   "myProject": "參與專案",
   "contactMe": "找我聊聊 !"
 }
