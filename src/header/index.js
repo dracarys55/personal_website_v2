@@ -7,6 +7,7 @@ import Themetoggle from '../components/themetoggle';
 import { useTranslation } from 'react-i18next';
 import Langtoggle from '../components/langtoggle';
 
+
 const Headermain = () => {
   const [isActive, setActive] = useState('true');
   const { t } = useTranslation();
@@ -20,9 +21,10 @@ const Headermain = () => {
   return (
     <>
       <header className='fixed-top site__header'>
-        <div className='d-flex align-items-center justify-content-between nav_ac_header'>
+        <div className='d-flex justify-content-between nav_ac_header'>
+         
           <Link className='navbar-brand nav_ac' to='/'>
-            {logotext}
+           <div className='logo'></div>
           </Link>
           {!isActive ? null : (
             <div className='d-flex align-items-center mid-navbar-rwd '>

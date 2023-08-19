@@ -15,6 +15,7 @@
   --text-color: #fff;
   --text-color-2: #fff;
   --overlay-color: rgb(12 12 12 / 63%);
+  --logo-link: url("assets/images/logo_jack_dark_mode.png");
 }
 
 [data-theme='light'] {
@@ -24,6 +25,7 @@
   --text-color: #000;
   --text-color-2: #000;
   --overlay-color: rgb(255 255 255 / 70%);
+  --logo-link: url("assets/images/logo_jack_light_mode.png");
 }
 
 html,

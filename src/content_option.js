@@ -49,13 +49,14 @@ const worktimeline = [
     where: 'where_1',
     date: 'date_1',
   },
+  {
+    jobtitle: 'jobTitle_2',
+    where: 'where_2',
+    date: 'date_2',
+  },
 ];
 
-/* {
-  jobtitle: 'Front-end Engineer',
-  where: 'Hengwei Technology Co., Ltd',
-  date: '2020.09 - 2021.08',
-}, */
+
 
 
 const skills = [
