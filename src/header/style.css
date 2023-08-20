@@ -4,9 +4,9 @@
   padding-right: 10px;
 }
 .logo {
-  background-image: var(--logo-link);
-  width: 7em;
+  width: 5em;
   height: 2em;
+  background-image: var(--logo-link);
   background-size: cover; 
   background-repeat: no-repeat; 
   transition: cubic-bezier(0.77, 0, 0.18, 1) 1s;
@@ -243,7 +243,7 @@ li.menu__button.nav_ac a {
   margin-right: 10px;
 }
 
-@media (max-width: 646px) {
+@media (max-width: 776px) {
   div.mid-navbar-rwd {
     display: none !important;
   }

@@ -81,7 +81,7 @@ section {
 }
 
 .intro_sec .text h1 {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 50px;
   font-weight: 700;
 }
@@ -89,6 +89,10 @@ section {
 .intro_sec .text h3 {
   font-size: 16px;
   font-weight: 700;
+}
+
+.intro_sec .text p {
+  font-size: 18px;
 }
 
 .intro_sec .h_bg-image {
