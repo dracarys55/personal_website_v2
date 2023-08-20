@@ -126,39 +126,39 @@ const dataportfolio = [
 const dataMylife = [
   {
     img: dataMylife_img_1,
-    desctiption: 'Sometimes,This is what you have to do as a teacher.',
+    desctiption: 'desctiption_1',
   },
   {
     img: dataMylife_img_2,
-    desctiption: 'Taking a pic with my physique idol !!',
+    desctiption: 'desctiption_2',
   },
   {
     img: dataMylife_img_3,
-    desctiption: 'After work routine : Traing.',
+    desctiption: 'desctiption_3',
   },
   {
     img: dataMylife_img_4,
-    desctiption: 'Last day of work.',
+    desctiption: 'desctiption_4',
   },
   {
     img: dataMylife_img_5,
-    desctiption: 'Go hiking with my lovely college/best designer ever.',
+    desctiption: 'desctiption_5',
   },
   {
     img: dataMylife_img_6,
-    desctiption: 'College graduation with weight traning club.',
+    desctiption: 'desctiption_6',
   },
   {
     img: dataMylife_img_7,
-    desctiption: 'Summer Time !',
+    desctiption: 'desctiption_7',
   },
   {
     img: dataMylife_img_8,
-    desctiption: 'During Covid-19,but still training.',
+    desctiption: 'desctiption_8',
   },
   {
     img: dataMylife_img_9,
-    desctiption: 'Having a farewell dinner with all the colleagues.',
+    desctiption: 'desctiption_9',
   },
 ];
 

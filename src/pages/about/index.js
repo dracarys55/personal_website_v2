@@ -54,7 +54,7 @@ export const About = () => {
         </Row>
         <Row className='sec_sp'>
           <Col lg='5'>
-            <h3 className='color_sec py-4'>Skills</h3>
+            <h3 className='color_sec py-4'>{t("aboutPage.skills")}</h3>
           </Col>
           <Col lg='7'>
             {skills.map((data, i) => {
@@ -78,7 +78,7 @@ export const About = () => {
         </Row>
         <Row className='mb-5 mt-3'>
           <Col lg='8'>
-            <h2 className='display-4 mb-4'>More About Me</h2>
+            <h2 className='display-4 mb-4'>{t("aboutPage.moreAboutMe")}</h2>
           </Col>
         </Row>
         <div className='sec_sp small_pic_ho'>
@@ -87,7 +87,7 @@ export const About = () => {
               <div key={i} className='small_pic'>
                 <img src={pic.img} alt='/' />
                 <div className='content'>
-                  <p>{pic.desctiption}</p>
+                  <p>{t(`aboutPage.${pic.desctiption}`)}</p>
                 </div>
               </div>
             );
