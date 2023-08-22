@@ -3,8 +3,10 @@ import './style.css';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Container, Row, Col } from 'react-bootstrap';
 import { dataportfolio, meta } from '../../content_option';
+import { useTranslation } from 'react-i18next';
 
 export const Project = () => {
+  const { t } = useTranslation();
   return (
     <HelmetProvider>
       <Container className='Project-section'>
@@ -15,7 +17,7 @@ export const Project = () => {
         </Helmet>
         <Row className='mb-5 mt-3'>
           <Col lg='8'>
-            <h1 className='display-4 mb-4'> Projects </h1>
+            <h1 className='display-4 mb-4'> {t('projectPage.title')} </h1>
             <hr className='t_border my-4 ml-0 text-left' />
           </Col>
         </Row>
@@ -25,14 +27,14 @@ export const Project = () => {
               <div key={i} className='po_item'>
                 <img src={data.img} alt='' />
                 <div className='content'>
-                  <p>{data.desctiption}</p>
+                  <p>{t(`projectPage.${data.desctiption}`)}</p>
                   <a
                     target='_blank'
                     rel='noreferrer'
                     className='ac_btn'
                     href={data.link}
                   >
-                    view project
+                    {t('projectPage.veiwProject')}
                   </a>
                   {data.github ? (
                     <a
@@ -41,7 +43,7 @@ export const Project = () => {
                       className='ac_btn'
                       href={data.github}
                     >
-                      view Github
+                      {t('projectPage.veiwGithub')}
                     </a>
                   ) : null}
                 </div>

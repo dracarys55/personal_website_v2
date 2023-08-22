@@ -14,20 +14,20 @@
     },
     "description": "喜歡學習各種東西，尤其是語言。無論是計算機語言還是人類語言。對了，我使用 JavaScript 製作各式各樣很酷的網站。"
   },
-  "aboutPage":{
-    "title":"關於我",
+  "aboutPage": {
+    "title": "關於我",
     "aboutMe": "自我介紹",
     "aboutMeContent": "你好，我的名字是 Jack。我目前是一位前端工程師，有兩年左右的工作經驗。我主要使用 JavaScript 和 TypeScript 進行開發，至於前端框架，我主要使用 React。此外，我還擁有 TOEIC 英語測試的金牌證書 (910)，並且擔任英語家教將近三年的時間。",
-    "workTimeline":"工作經歷",
-    "workTimelineContent":"Work Timline",
-    "jobTitle_1":"前端工程師",
-    "where_1":"恆為科技",
-    "date_1":"2020.09 - 2021.08",
-    "jobTitle_2":"前端工程師",
-    "where_2":"禾宥科技",
-    "date_2":"2021.09 - 至今",
-    "skills":"使用技術",
-    "moreAboutMe":"不同面向的我",
+    "workTimeline": "工作經歷",
+    "workTimelineContent": "Work Timline",
+    "jobTitle_1": "前端工程師",
+    "where_1": "恆為科技",
+    "date_1": "2020.09 - 2021.08",
+    "jobTitle_2": "前端工程師",
+    "where_2": "禾宥科技",
+    "date_2": "2021.09 - 至今",
+    "skills": "使用技術",
+    "moreAboutMe": "不同面向的我",
     "desctiption_1": "學生腿部受傷，帶著他去醫護室。",
     "desctiption_2": "和我的健身偶像合影！！",
     "desctiption_3": "謝謝同事們的感謝信:)",
@@ -37,8 +37,25 @@
     "desctiption_7": "夏日時光。",
     "desctiption_8": "依然堅持訓練，即便在 Covid-19 期間",
     "desctiption_9": "與全體同事一起吃離別晚餐。"
-    },
-
+  },
+  "projectPage": {
+    "title": "參與專案",
+    "project_desctiption_1": "Rise of elves 區塊鏈遊戲官方網站",
+    "project_desctiption_2": "捕魚遊戲官方網站",
+    "project_desctiption_3": " 電 商 購 物 網 站",
+    "veiwProject": "網站連結",
+    "veiwGithub": "專案連結",
+    "project_more": "未來即將有更多專案，請稍待。"
+  },
+  "contactPage": {
+    "title": "聯絡我",
+    "GetInTouch": "找我聊聊吧",
+    "project_desctiption_2": "捕魚遊戲官方網站",
+    "project_desctiption_3": " 電 商 購 物 網 站",
+    "veiwProject": "網站連結",
+    "veiwGithub": "專案連結",
+    "project_more": "未來即將有更多專案，請稍待。"
+  },
   "myProject": "參與專案",
   "contactMe": "找我聊聊 !"
 }

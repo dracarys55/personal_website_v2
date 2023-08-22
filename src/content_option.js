@@ -21,7 +21,7 @@ const meta = {
 };
 
 const introdata = {
-/*   title: 'I’m Jack Liu.',
+  /*   title: 'I’m Jack Liu.',
   animated: {
     first: 'A Front-End Engineer',
     second: 'An English Teacher',
@@ -56,9 +56,6 @@ const worktimeline = [
   },
 ];
 
-
-
-
 const skills = [
   {
     name: 'JavaScript',
@@ -85,40 +82,41 @@ const skills = [
 const dataportfolio = [
   {
     img: projectimage_1,
-    desctiption: 'Rise of elves 區塊鏈遊戲官方網站',
+    desctiption: 'project_desctiption_1',
     link: 'https://www.riseofelves.com/',
   },
   {
     img: projectimage_2,
-    desctiption: 'S 8 遊戲官方網站',
+    desctiption: 'project_desctiption_2',
     link: '#',
     github: '#',
   },
   {
     img: projectimage_3,
-    desctiption: ' 電 商 購 物 網 站 ',
+    desctiption: 'project_desctiption_3',
     link: 'https://github.com/dracarys55/E-commerce',
-    github: 'https://supershop54.herokuapp.com/',
+    github: '#',
+    /* 'https://supershop54.herokuapp.com/' */
   },
   {
     img: projectimage_4,
-    desctiption: '未來即將有更多專案，請稍待。',
+    desctiption: 'project_more',
     link: '#',
   },
   {
     img: projectimage_4,
-    desctiption: '未來即將有更多專案，請稍待。',
+    desctiption: 'project_more',
     link: '#',
   },
   {
     img: projectimage_4,
-    desctiption: '未來即將有更多專案，請稍待。',
+    desctiption: 'project_more',
     link: '#',
   },
 
   {
     img: projectimage_4,
-    desctiption: '未來即將有更多專案，請稍待。',
+    desctiption: 'project_more',
     link: '#',
   },
 ];

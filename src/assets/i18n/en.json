@@ -14,20 +14,20 @@
     },
     "description": "Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript."
   },
-  "aboutPage":{
-    "title":"About me",
+  "aboutPage": {
+    "title": "About me",
     "aboutMe": "About myself",
     "aboutMeContent": "Hello, my name is Jack. I am currently a  front-end engineer with two more years of work experience.I mainly use javaScript and TypeScript for development,and for front-end framework I mainly use React.I also have a golden certificate from TOEIC English Test,and have been an English tutor for almost three years.",
-    "workTimeline":"Work Timline",
-    "workTimelineContent":"Work Timline",
+    "workTimeline": "Work Timline",
+    "workTimelineContent": "Work Timline",
     "jobTitle_1": "Front-end Engineer",
     "where_1": "Hengwei Technology Co., Ltd",
     "date_1": "2020.09 - 2021.08",
-    "jobTitle_2":"Front-end Engineer",
-    "where_2":"Heyou Technology Co., Ltd",
-    "date_2":"2021.09 - Present.",
-    "skills":"skills",
-    "moreAboutMe":"More About Me",
+    "jobTitle_2": "Front-end Engineer",
+    "where_2": "Heyou Technology Co., Ltd",
+    "date_2": "2021.09 - Present.",
+    "skills": "skills",
+    "moreAboutMe": "More About Me",
     "desctiption_1": "The student injured his leg and took him to the infirmary.",
     "desctiption_2": "Taking a pic with my physique idol !!",
     "desctiption_3": "Thank you messages from my colleague",
@@ -37,6 +37,24 @@
     "desctiption_7": "Summer Time.",
     "desctiption_8": "During Covid-19,but still training.",
     "desctiption_9": "Having a farewell dinner with all the colleagues."
+  },
+  "projectPage": {
+    "title": "project",
+    "project_desctiption_1": "Rise of Elves Official Website",
+    "project_desctiption_2": "Fishing Games Official Site",
+    "project_desctiption_3": "Ecommerce Website",
+    "veiwProject": "view project",
+    "veiwGithub": "view Github",
+    "project_more": "There will be more projects in the future, please wait a moment."
+  },
+  "contactPage": {
+    "title": "Contact Me",
+    "GetInTouch": "Get in touch",
+    "project_desctiption_2": "捕魚遊戲官方網站",
+    "project_desctiption_3": " 電 商 購 物 網 站",
+    "veiwProject": "網站連結",
+    "veiwGithub": "專案連結",
+    "project_more": "未來即將有更多專案，請稍待。"
   },
   "myProject": "My Project",
   "contactMe": "Contact Me"
