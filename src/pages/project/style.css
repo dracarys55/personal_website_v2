@@ -78,7 +78,28 @@
   font-size: 1rem;
   margin: 3px 0px 7px 0px;
 }
+.po_item .content .content_description {
+  max-width: 35rem;
+}
 
+@media (max-width: 786px) {
+  .po_item .content .content_description {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 548px) {
+  .po_item .content .content_description {
+    max-width: 15rem;
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 398px) {
+  .po_item .content .content_description {
+    display: none;
+  }
+}
 .po_item .content a:hover {
   text-decoration: none;
 }

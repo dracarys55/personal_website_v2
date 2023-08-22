@@ -27,7 +27,9 @@ export const Project = () => {
               <div key={i} className='po_item'>
                 <img src={data.img} alt='' />
                 <div className='content'>
-                  <p>{t(`projectPage.${data.desctiption}`)}</p>
+                  <p className='content_description'>
+                    {t(`projectPage.${data.desctiption}`)}
+                  </p>
                   <a
                     target='_blank'
                     rel='noreferrer'
