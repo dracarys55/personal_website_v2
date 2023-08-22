@@ -163,8 +163,7 @@ const dataMylife = [
 const contactConfig = {
   YOUR_EMAIL: 's6263269@gmail.com',
   YOUR_FONE: '(+886)979-760-220',
-  description: `Always looking for exciting projects to join, my inbox is always open. 
-    Whether you have a question or just want to say hi, let me know !!`,
+  description: 'desctiption',
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: 'service_zlgdl49',

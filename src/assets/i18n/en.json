@@ -50,11 +50,13 @@
   "contactPage": {
     "title": "Contact Me",
     "GetInTouch": "Get in touch",
-    "project_desctiption_2": "捕魚遊戲官方網站",
-    "project_desctiption_3": " 電 商 購 物 網 站",
-    "veiwProject": "網站連結",
-    "veiwGithub": "專案連結",
-    "project_more": "未來即將有更多專案，請稍待。"
+    "phone": "Phone : ",
+    "desctiption": "Always looking for exciting projects to join, my inbox is always open.Whether you have a question or just want to say hi, let me know !!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending..."
   },
   "myProject": "My Project",
   "contactMe": "Contact Me"
