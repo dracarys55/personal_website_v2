@@ -71,7 +71,7 @@ export const ContactUs = () => {
       <Container className='Contact-section'>
         <Helmet>
           <meta charSet='utf-8' />
-          <title>{meta.title} | tContact</title>
+          <title>{meta.title} | Contact</title>
           <meta name='description' content={meta.description} />
         </Helmet>
         <Row className='mb-5 mt-3'>
