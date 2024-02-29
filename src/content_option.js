@@ -1,8 +1,9 @@
 import my_pic from './assets/images/my_pic.jpg';
-import projectimage_1 from './assets/projectImages/rise_of_elves.png';
-import projectimage_2 from './assets/projectImages/S8.png';
+import projectimage_1 from './assets/projectImages/rise_of_elves_2.webp';
+import projectimage_2 from './assets/projectImages/S8.webp';
 import projectimage_3 from './assets/projectImages/E_commerce.png';
-import projectimage_4 from './assets/projectImages/waiting.jpg';
+import projectimage_4 from './assets/projectImages/tesla_mimic.webp';
+import projectimage_waiting from './assets/projectImages/waiting.webp';
 
 import dataMylife_img_1 from './assets/projectImages/dataMylife_img_14519.jpg';
 import dataMylife_img_2 from './assets/projectImages/dataMylife_img_15485.jpg';
@@ -88,8 +89,8 @@ const dataportfolio = [
   {
     img: projectimage_2,
     desctiption: 'project_desctiption_2',
-    link: '#',
-    github: '#',
+    link: 'https://s8-official-website.vercel.app/',
+    github: 'https://github.com/dracarys55/S8_official_website',
   },
   {
     img: projectimage_3,
@@ -100,22 +101,23 @@ const dataportfolio = [
   },
   {
     img: projectimage_4,
+    desctiption: 'project_desctiption_4',
+    link: 'https://teslamimic.vercel.app/',
+    github: 'https://github.com/dracarys55/teslamimic',
+  },
+  {
+    img: projectimage_waiting,
     desctiption: 'project_more',
     link: '#',
   },
   {
-    img: projectimage_4,
-    desctiption: 'project_more',
-    link: '#',
-  },
-  {
-    img: projectimage_4,
+    img: projectimage_waiting,
     desctiption: 'project_more',
     link: '#',
   },
 
   {
-    img: projectimage_4,
+    img: projectimage_waiting,
     desctiption: 'project_more',
     link: '#',
   },

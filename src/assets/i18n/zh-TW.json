@@ -41,8 +41,9 @@
   "projectPage": {
     "title": "參與專案",
     "project_desctiption_1": "為區塊鏈遊戲，主要會跟區塊鏈相關技術做交互，並使用metamask 對合約做請求互動。使用 React hooks 開發，以求達到FP資料不可變的特性，讓程式狀態的變更更加好被追蹤與debug。使用相關的 React 生態系套件，Next, Tailwind,  Zustand, 來達到更好的用戶體驗。",
-    "project_desctiption_2": "捕魚遊戲官方網站",
+    "project_desctiption_2": "捕魚遊戲官方網站：點擊登陸後的登錄按鈕有會員中心頁面",
     "project_desctiption_3": " 電 商 購 物 網 站",
+    "project_desctiption_4": "Tesla 模仿練習網站",
     "veiwProject": "網站連結",
     "veiwGithub": "專案連結",
     "project_more": "未來即將有更多專案，請稍待。"
