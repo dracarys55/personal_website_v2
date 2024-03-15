@@ -1,19 +1,21 @@
 import my_pic from './assets/images/my_pic.jpg';
-import projectimage_1 from './assets/projectImages/rise_of_elves_2.webp';
+import projectimage_1 from './assets/projectImages/rise_of_elves_2.jpg';
+import projectimage_admin from './assets/projectImages/rise_of_elves_admin.jpg';
 import projectimage_2 from './assets/projectImages/S8.webp';
 import projectimage_3 from './assets/projectImages/E_commerce.png';
 import projectimage_4 from './assets/projectImages/tesla_mimic.webp';
+import projectimage_5 from './assets/projectImages/super_chain.webp';
 import projectimage_waiting from './assets/projectImages/waiting.webp';
 
-import dataMylife_img_1 from './assets/projectImages/dataMylife_img_14519.jpg';
-import dataMylife_img_2 from './assets/projectImages/dataMylife_img_15485.jpg';
-import dataMylife_img_3 from './assets/projectImages/dataMylife_img_15616.jpg';
-import dataMylife_img_4 from './assets/projectImages/dataMylife_img_84892.jpg';
-import dataMylife_img_5 from './assets/projectImages/dataMylife_img_8946.jpg';
-import dataMylife_img_6 from './assets/projectImages/dataMylife_img_121459.jpg';
-import dataMylife_img_7 from './assets/projectImages/dataMylife_img_85461.jpg';
-import dataMylife_img_8 from './assets/projectImages/dataMylife_img_12232.jpg';
-import dataMylife_img_9 from './assets/projectImages/dataMylife_img_156489.jpg';
+import dataMylife_img_1 from './assets/projectImages/dataMylife_img_14519.webp';
+import dataMylife_img_2 from './assets/projectImages/dataMylife_img_15485.webp';
+import dataMylife_img_3 from './assets/projectImages/dataMylife_img_15616.webp';
+import dataMylife_img_4 from './assets/projectImages/dataMylife_img_84892.webp';
+import dataMylife_img_5 from './assets/projectImages/dataMylife_img_8946.webp';
+import dataMylife_img_6 from './assets/projectImages/dataMylife_img_121459.webp';
+import dataMylife_img_7 from './assets/projectImages/dataMylife_img_85461.webp';
+import dataMylife_img_8 from './assets/projectImages/dataMylife_img_12232.webp';
+import dataMylife_img_9 from './assets/projectImages/dataMylife_img_156489.webp';
 
 const logotext = 'J A C K';
 const meta = {
@@ -87,6 +89,11 @@ const dataportfolio = [
     link: 'https://www.riseofelves.com/',
   },
   {
+    img: projectimage_admin,
+    desctiption: 'project_desctiption_admin',
+    link: '/static/media/rise_of_elves_admin.7f27b4e8.jpg',
+  },
+  {
     img: projectimage_2,
     desctiption: 'project_desctiption_2',
     link: 'https://s8-official-website.vercel.app/',
@@ -106,9 +113,9 @@ const dataportfolio = [
     github: 'https://github.com/dracarys55/teslamimic',
   },
   {
-    img: projectimage_waiting,
-    desctiption: 'project_more',
-    link: '#',
+    img: projectimage_5,
+    desctiption: 'project_desctiption_5',
+    link: 'https://superchaingroup.com/',
   },
   {
     img: projectimage_waiting,

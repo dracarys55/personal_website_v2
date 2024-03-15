@@ -41,9 +41,11 @@
   "projectPage": {
     "title": "project",
     "project_desctiption_1": "Rise of Elves Official Website",
+    "project_desctiption_admin": "Rise of Elves Admin System",
     "project_desctiption_2": "Fishing Games Official Site",
     "project_desctiption_3": "Ecommerce Website",
     "project_desctiption_4": "Tesla Mimic Project",
+    "project_desctiption_5": "Super Chain Landing Page",
     "veiwProject": "view project",
     "veiwGithub": "view Github",
     "project_more": "There will be more projects in the future, please wait a moment."
