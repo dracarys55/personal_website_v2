@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8b952418.chunk.css",
-    "main.js": "/static/js/main.9d3b8af6.chunk.js",
-    "main.js.map": "/static/js/main.9d3b8af6.chunk.js.map",
+    "main.js": "/static/js/main.33a2f6bd.chunk.js",
+    "main.js.map": "/static/js/main.33a2f6bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18ffad03.js",
     "runtime-main.js.map": "/static/js/runtime-main.18ffad03.js.map",
     "static/css/2.31ff0196.chunk.css": "/static/css/2.31ff0196.chunk.css",
@@ -16,17 +16,19 @@
     "static/js/2.0734be94.chunk.js.LICENSE.txt": "/static/js/2.0734be94.chunk.js.LICENSE.txt",
     "static/media/E_commerce.a8ae7ada.png": "/static/media/E_commerce.a8ae7ada.png",
     "static/media/S8.127b57f5.webp": "/static/media/S8.127b57f5.webp",
-    "static/media/dataMylife_img_121459.0fa1b188.jpg": "/static/media/dataMylife_img_121459.0fa1b188.jpg",
-    "static/media/dataMylife_img_12232.de2ad174.jpg": "/static/media/dataMylife_img_12232.de2ad174.jpg",
-    "static/media/dataMylife_img_14519.b5b0c966.jpg": "/static/media/dataMylife_img_14519.b5b0c966.jpg",
-    "static/media/dataMylife_img_15485.e610681e.jpg": "/static/media/dataMylife_img_15485.e610681e.jpg",
-    "static/media/dataMylife_img_15616.f2f10538.jpg": "/static/media/dataMylife_img_15616.f2f10538.jpg",
-    "static/media/dataMylife_img_156489.e1dc2a60.jpg": "/static/media/dataMylife_img_156489.e1dc2a60.jpg",
-    "static/media/dataMylife_img_84892.1bb5a803.jpg": "/static/media/dataMylife_img_84892.1bb5a803.jpg",
-    "static/media/dataMylife_img_85461.fe664dd4.jpg": "/static/media/dataMylife_img_85461.fe664dd4.jpg",
-    "static/media/dataMylife_img_8946.91082168.jpg": "/static/media/dataMylife_img_8946.91082168.jpg",
+    "static/media/dataMylife_img_121459.25b508ba.webp": "/static/media/dataMylife_img_121459.25b508ba.webp",
+    "static/media/dataMylife_img_12232.59d8602e.webp": "/static/media/dataMylife_img_12232.59d8602e.webp",
+    "static/media/dataMylife_img_14519.97e7694b.webp": "/static/media/dataMylife_img_14519.97e7694b.webp",
+    "static/media/dataMylife_img_15485.c2d06415.webp": "/static/media/dataMylife_img_15485.c2d06415.webp",
+    "static/media/dataMylife_img_15616.eeb1f27f.webp": "/static/media/dataMylife_img_15616.eeb1f27f.webp",
+    "static/media/dataMylife_img_156489.47687ba7.webp": "/static/media/dataMylife_img_156489.47687ba7.webp",
+    "static/media/dataMylife_img_84892.784bf53b.webp": "/static/media/dataMylife_img_84892.784bf53b.webp",
+    "static/media/dataMylife_img_85461.dc9f074a.webp": "/static/media/dataMylife_img_85461.dc9f074a.webp",
+    "static/media/dataMylife_img_8946.c5bfd16d.webp": "/static/media/dataMylife_img_8946.c5bfd16d.webp",
     "static/media/my_pic.b6b98c49.jpg": "/static/media/my_pic.b6b98c49.jpg",
-    "static/media/rise_of_elves_2.9bd5ebc0.webp": "/static/media/rise_of_elves_2.9bd5ebc0.webp",
+    "static/media/rise_of_elves_2.fd6c44c4.jpg": "/static/media/rise_of_elves_2.fd6c44c4.jpg",
+    "static/media/rise_of_elves_admin.7f27b4e8.jpg": "/static/media/rise_of_elves_admin.7f27b4e8.jpg",
+    "static/media/super_chain.792225ed.webp": "/static/media/super_chain.792225ed.webp",
     "static/media/tesla_mimic.765f3379.webp": "/static/media/tesla_mimic.765f3379.webp",
     "static/media/waiting.cfa08a09.webp": "/static/media/waiting.cfa08a09.webp"
   },
@@ -35,6 +37,6 @@
     "static/css/2.31ff0196.chunk.css",
     "static/js/2.0734be94.chunk.js",
     "static/css/main.8b952418.chunk.css",
-    "static/js/main.9d3b8af6.chunk.js"
+    "static/js/main.33a2f6bd.chunk.js"
   ]
 }
