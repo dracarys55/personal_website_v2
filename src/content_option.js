@@ -184,8 +184,8 @@ const socialprofils = {
   github: 'https://github.com/dracarys55/',
   medium: 'https://jackliu-61470.medium.com/',
   linkedin: 'https://www.linkedin.com/in/jack-liu-2b95a0121/',
-  facebook: 'https://www.facebook.com/profile.php?id=100002098647412',
-  instagram: 'https://www.instagram.com/jack_liu_555/',
+  facebook: '',
+  instagram: '',
 };
 export {
   meta,
