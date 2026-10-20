@@ -1,66 +1,136 @@
 {
-  "header": {
-    "home": "主頁",
-    "projects": "參與專案",
+  "nav": {
+    "home": "首頁",
+    "projects": "精選作品",
     "about": "工作經歷",
-    "contact": "聯絡方式"
+    "contact": "聯絡我"
   },
-  "introdata": {
-    "title": "我是 Jack Liu",
-    "animated": {
-      "first": "是一名前端工程師。",
-      "second": "是一名英語老師。",
-      "third": "也是一位健身愛好者。"
+  "hero": {
+    "eyebrow": "台灣 · 遠端合作",
+    "intro": "你好，我是 Jack Liu。",
+    "title": "資深前端工程師。",
+    "description": "使用 React、Next.js 與 TypeScript 開發網頁產品，擅長前端效能優化、團隊協作，以及 Web3 與即時互動介面。",
+    "availability": "開放遠端兼職、海外合約，以及合適的全職機會。",
+    "work": "瀏覽我的作品",
+    "resume": "下載英文履歷",
+    "contact": "聊聊合作機會",
+    "portrait": "Jack Liu 個人照片"
+  },
+  "about": {
+    "title": "工作經歷與專業能力",
+    "intro": "約五年前端開發經驗，兼具產品實作與 React 團隊帶領經驗。目前居住台灣，可以全英文面試、討論技術決策並與海外團隊合作。",
+    "capabilities": "我能提供的能力",
+    "capabilityItems": [
+      "React、Next.js、TypeScript、JavaScript 與 Tailwind CSS",
+      "元件架構、Zustand 狀態管理與 Vue 維護",
+      "前端效能優化、API 串接與 WebSocket 即時介面",
+      "GitHub Actions、Jenkins 與團隊協作流程",
+      "英文技術溝通；TOEIC 910（2021 年）"
+    ],
+    "timeline": "專業經歷",
+    "education": "學歷與語言",
+    "educationText": "義守大學應用英語學系學士，2015–2019。曾擔任英語家教，可使用中文與英文進行專業溝通。",
+    "resume": "下載英文履歷"
+  },
+  "jobs": [
+    {
+      "company": "Lang LIVE 浪直播",
+      "title": "資深前端工程師",
+      "date": "2024.09 – 至今",
+      "summary": "參與直播產品的前端開發。"
     },
-    "description": "喜歡學習各種東西，尤其是語言。無論是計算機語言還是人類語言。對了，我使用 JavaScript 製作各式各樣很酷的網站。"
+    {
+      "company": "禾宥科技",
+      "title": "React 團隊主管／React 工程師",
+      "date": "2022.09 – 2024.07",
+      "summary": "2023 年 1 月起擔任 React 團隊主管，先前為 React 工程師。專案涵蓋 Web3 產品介面、管理後台與可複用前端元件。"
+    },
+    {
+      "company": "恆為科技",
+      "title": "前端工程師",
+      "date": "2021.09 – 2022.08",
+      "summary": "以 JavaScript 與 Egret 引擎開發 HTML5 遊戲。"
+    }
+  ],
+  "projects": {
+    "title": "精選作品",
+    "intro": "產品介面與個人專案節選。截圖呈現過往專案成果；內部系統以畫面案例展示。",
+    "preview": "檢視專案截圖",
+    "source": "檢視原始碼",
+    "professional": "產品專案",
+    "independent": "個人專案",
+    "role": "我的貢獻",
+    "items": [
+      {
+        "title": "Rise of Elves",
+        "category": "Web3 產品",
+        "description": "開發 React 介面，透過 MetaMask 與區塊鏈合約互動，使用 Next.js、Tailwind CSS 與 Zustand 建構前端與管理應用程式狀態。",
+        "tags": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Zustand",
+          "ethers.js"
+        ]
+      },
+      {
+        "title": "Rise of Elves 管理後台",
+        "category": "企業管理介面",
+        "description": "使用 React 與 Ant Design Pro 開發內部管理介面，呈現圖表與營運資料，並透過 Umi KeepAlive 保留頁籤狀態。",
+        "tags": [
+          "React",
+          "Ant Design Pro",
+          "Umi",
+          "資料視覺化"
+        ]
+      },
+      {
+        "title": "S8 官方網站",
+        "category": "產品官網",
+        "description": "開發捕魚遊戲產品官網與會員中心介面，提供專案原始碼供參考。",
+        "tags": [
+          "React",
+          "產品介面"
+        ]
+      },
+      {
+        "title": "電商購物網站",
+        "category": "個人專案",
+        "description": "電商網站開發專案，可透過程式碼儲存庫查看實作細節。",
+        "tags": [
+          "網頁應用程式",
+          "開放原始碼"
+        ]
+      },
+      {
+        "title": "Tesla 介面練習",
+        "category": "個人專案",
+        "description": "以 Tesla 風格網站為參考的前端版面實作練習。",
+        "tags": [
+          "React",
+          "響應式介面"
+        ]
+      }
+    ]
   },
-  "aboutPage": {
-    "title": "關於我",
-    "aboutMe": "自我介紹",
-    "aboutMeContent": "你好，我的名字是 Jack。我目前是一位前端工程師，有兩年左右的工作經驗。我主要使用 JavaScript 和 TypeScript 進行開發，至於前端框架，我主要使用 React。此外，我還擁有 TOEIC 英語測試的金牌證書 (910)，並且擔任英語家教將近三年的時間。",
-    "workTimeline": "工作經歷",
-    "workTimelineContent": "Work Timline",
-    "jobTitle_1": "前端工程師",
-    "where_1": "恆為科技",
-    "date_1": "2021.09 - 2022.08",
-    "jobTitle_2": "前端工程師",
-    "where_2": "禾宥科技",
-    "date_2": "2022.09 - 至今",
-    "skills": "使用技術",
-    "moreAboutMe": "不同面向的我",
-    "desctiption_1": "學生腿部受傷，帶著他去醫護室。",
-    "desctiption_2": "和我的健身偶像合影！！",
-    "desctiption_3": "謝謝同事們的感謝信:)",
-    "desctiption_4": "工作的最後一天。",
-    "desctiption_5": "和我最棒的同事/最好的設計師，一起去徒步旅行。",
-    "desctiption_6": "跟健訓社夥伴一起參加畢業典禮!",
-    "desctiption_7": "夏日時光。",
-    "desctiption_8": "依然堅持訓練，即便在 Covid-19 期間",
-    "desctiption_9": "與全體同事一起吃離別晚餐。"
+  "contact": {
+    "title": "一起做出實用的產品。",
+    "description": "目前居住台灣（UTC+8），可接受海外合約並可立即開始合作。會議最晚可配合到台灣時間午夜十二點，每週可投入時數及專案範圍可進一步討論。",
+    "email": "寄信聯絡我",
+    "linkedin": "透過 LinkedIn 聯絡",
+    "formTitle": "聊聊職缺或專案",
+    "name": "你的姓名",
+    "emailLabel": "你的 Email",
+    "message": "請描述職缺或合作需求",
+    "send": "開啟電子郵件草稿",
+    "hint": "將在你的郵件程式中開啟草稿，確認後再自行寄出。",
+    "subject": "遠端前端合作機會",
+    "location": "台灣 · UTC+8",
+    "hours": "會議最晚可配合至台灣時間 00:00"
   },
-  "projectPage": {
-    "title": "參與專案",
-    "project_desctiption_1": "為區塊鏈遊戲，主要會跟區塊鏈相關技術做交互，並使用metamask 對合約做請求互動。使用 React hooks 開發，以求達到FP資料不可變的特性，讓程式狀態的變更更加好被追蹤與debug。使用相關的 React 生態系套件，Next, Tailwind,  Zustand, 來達到更好的用戶體驗。",
-    "project_desctiption_admin": "Rise of Elves 後台系統：運用前端框架 React, Ant Design Pro 進行開發，為一個完整的後台系統，呈現相關圖表與數據，可供內部人員進行操作使用，並使用 Umi 裡面的KeepAlive 功能來達到單分頁裡面也可以開啟任一Tab 並保存相關生命週期資訊，以符合業務需求。(內部系統只能以Demo為主)",
-    "project_desctiption_2": "捕魚遊戲官方網站：點擊登陸後的登錄按鈕有會員中心頁面",
-    "project_desctiption_3": " 電 商 購 物 網 站",
-    "project_desctiption_4": "Tesla 模仿練習網站",
-    "project_desctiption_5": "Super Chain 形象官網",
-    "veiwProject": "網站連結",
-    "veiwGithub": "專案連結",
-    "project_more": "未來即將有更多專案，請稍待。"
-  },
-  "contactPage": {
-    "title": "聯絡我",
-    "GetInTouch": "找我聊聊吧",
-    "phone": "手機 : ",
-    "desctiption": "我一直在尋找令人興奮的項目加入，我的收件箱隨時開放。無論你有什麼問題，或者只是想打個招呼，都讓我知道吧！",
-    "name": "姓名",
-    "email": "Email",
-    "message": "訊息",
-    "send": "送出",
-    "sending": "送出中..."
-  },
-  "myProject": "參與專案",
-  "contactMe": "找我聊聊 !"
+  "footer": "Jack Liu · 資深前端工程師",
+  "themeDark": "切換為淺色主題",
+  "themeLight": "切換為深色主題",
+  "language": "Switch to English",
+  "skip": "跳至主要內容"
 }
