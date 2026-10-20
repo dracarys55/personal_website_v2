@@ -1,66 +1,136 @@
 {
-  "header": {
+  "nav": {
     "home": "Home",
-    "projects": "Projects",
-    "about": "About",
+    "projects": "Selected work",
+    "about": "Experience",
     "contact": "Contact"
   },
-  "introdata": {
-    "title": "I’m Jack Liu.",
-    "animated": {
-      "first": "A Front-End Engineer",
-      "second": "An English Teacher",
-      "third": "A Fitness Enthusiast"
+  "hero": {
+    "eyebrow": "TAIWAN · REMOTE",
+    "intro": "Hi, I’m Jack Liu.",
+    "title": "Senior Frontend Engineer.",
+    "description": "I build responsive web products with React, Next.js and TypeScript. My experience spans frontend performance, team leadership, Web3 interfaces and real-time applications.",
+    "availability": "Open to remote contracts, part-time opportunities and the right full-time role.",
+    "work": "Explore my work",
+    "resume": "Download résumé",
+    "contact": "Let’s talk",
+    "portrait": "Portrait of Jack Liu"
+  },
+  "about": {
+    "title": "Experience & approach",
+    "intro": "Frontend engineer with around five years of professional experience, combining hands-on development with React team leadership. Based in Taiwan and comfortable interviewing, discussing technical decisions and collaborating in English.",
+    "capabilities": "What I bring",
+    "capabilityItems": [
+      "React, Next.js, TypeScript, JavaScript and Tailwind CSS",
+      "Component architecture, Zustand and Vue maintenance",
+      "Frontend performance, API integration and WebSocket interfaces",
+      "GitHub Actions, Jenkins and collaborative delivery",
+      "English technical communication; TOEIC 910 (2021)"
+    ],
+    "timeline": "Professional experience",
+    "education": "Education & languages",
+    "educationText": "B.A. in Applied English · I-Shou University · 2015–2019. Previous experience as an English tutor. Professional English and Mandarin communication.",
+    "resume": "Download English résumé"
+  },
+  "jobs": [
+    {
+      "company": "Lang LIVE",
+      "title": "Senior Frontend Developer",
+      "date": "Sep 2024 – Present",
+      "summary": "Frontend engineering for a live-streaming product."
     },
-    "description": "Enjoy learning all kinds of stuff, especially languages. No matter is computer language or human language. By the way, I write cool website using JavaScript."
+    {
+      "company": "Heyou Technology (禾宥科技)",
+      "title": "React Team Lead / React Developer",
+      "date": "Sep 2022 – Jul 2024",
+      "summary": "React Team Lead from Jan 2023; previously React Developer. Work includes Web3 product interfaces, admin systems and reusable frontend components."
+    },
+    {
+      "company": "Hengwei Technology (恆為科技)",
+      "title": "Frontend Engineer",
+      "date": "Sep 2021 – Aug 2022",
+      "summary": "HTML5 game development using JavaScript and the Egret engine."
+    }
+  ],
+  "projects": {
+    "title": "Selected work",
+    "intro": "A selection of product interfaces and independent projects. Screenshots document past work; internal systems are presented as visual case studies.",
+    "preview": "View screenshot",
+    "source": "View source",
+    "professional": "Product work",
+    "independent": "Independent project",
+    "role": "My contribution",
+    "items": [
+      {
+        "title": "Rise of Elves",
+        "category": "Web3 product",
+        "description": "Built React-based interfaces that connect to blockchain contracts through MetaMask. Used Next.js, Tailwind CSS and Zustand for UI development and application state.",
+        "tags": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Zustand",
+          "ethers.js"
+        ]
+      },
+      {
+        "title": "Rise of Elves Admin",
+        "category": "Enterprise interface",
+        "description": "Developed an internal administration interface with React and Ant Design Pro, including charts, operational data and tab state preservation using Umi KeepAlive.",
+        "tags": [
+          "React",
+          "Ant Design Pro",
+          "Umi",
+          "Data visualization"
+        ]
+      },
+      {
+        "title": "S8 Official Website",
+        "category": "Product website",
+        "description": "Developed a fishing-game product website with a member-center interface. Source code is available for review.",
+        "tags": [
+          "React",
+          "Product UI"
+        ]
+      },
+      {
+        "title": "E-commerce Project",
+        "category": "Independent project",
+        "description": "An e-commerce web development project. Review the repository for implementation details.",
+        "tags": [
+          "Web application",
+          "Source available"
+        ]
+      },
+      {
+        "title": "Tesla UI Study",
+        "category": "Independent project",
+        "description": "A frontend practice project recreating a Tesla-style website layout.",
+        "tags": [
+          "React",
+          "Responsive UI"
+        ]
+      }
+    ]
   },
-  "aboutPage": {
-    "title": "About me",
-    "aboutMe": "About myself",
-    "aboutMeContent": "Hello, my name is Jack. I am currently a  front-end engineer with two more years of work experience.I mainly use javaScript and TypeScript for development,and for front-end framework I mainly use React.I also have a golden certificate from TOEIC English Test,and have been an English tutor for almost three years.",
-    "workTimeline": "Work Timline",
-    "workTimelineContent": "Work Timline",
-    "jobTitle_1": "Front-end Engineer",
-    "where_1": "Hengwei Technology Co., Ltd",
-    "date_1": "2020.09 - 2021.08",
-    "jobTitle_2": "Front-end Engineer",
-    "where_2": "Heyou Technology Co., Ltd",
-    "date_2": "2021.09 - Present.",
-    "skills": "skills",
-    "moreAboutMe": "More About Me",
-    "desctiption_1": "The student injured his leg and took him to the infirmary.",
-    "desctiption_2": "Taking a pic with my physique idol !!",
-    "desctiption_3": "Thank you messages from my colleague",
-    "desctiption_4": "Last day of work.",
-    "desctiption_5": "Go hiking with my lovely colleague/best designer ever.",
-    "desctiption_6": "College graduation with weight traning club.",
-    "desctiption_7": "Summer Time.",
-    "desctiption_8": "During Covid-19,but still training.",
-    "desctiption_9": "Having a farewell dinner with all the colleagues."
+  "contact": {
+    "title": "Let’s build something useful.",
+    "description": "I’m based in Taiwan (UTC+8), open to overseas contracts, and available to start immediately. Meetings can run until midnight Taiwan time. Weekly availability and project scope can be discussed.",
+    "email": "Email me",
+    "linkedin": "Connect on LinkedIn",
+    "formTitle": "Start a conversation",
+    "name": "Your name",
+    "emailLabel": "Your email",
+    "message": "Tell me about the role or project",
+    "send": "Open email draft",
+    "hint": "This opens a draft in your email app. You can review it before sending.",
+    "subject": "Remote frontend opportunity",
+    "location": "Taiwan · UTC+8",
+    "hours": "Meetings until 00:00 Taiwan time"
   },
-  "projectPage": {
-    "title": "Project",
-    "project_desctiption_1": "Rise of Elves Official Website",
-    "project_desctiption_admin": "Rise of Elves Admin System",
-    "project_desctiption_2": "Fishing Games Official Site",
-    "project_desctiption_3": "Ecommerce Website",
-    "project_desctiption_4": "Tesla Mimic Project",
-    "project_desctiption_5": "Super Chain Landing Page",
-    "veiwProject": "view project",
-    "veiwGithub": "view Github",
-    "project_more": "There will be more projects in the future, please wait a moment."
-  },
-  "contactPage": {
-    "title": "Contact Me",
-    "GetInTouch": "Get in touch",
-    "phone": "Phone : ",
-    "desctiption": "Always looking for exciting projects to join, my inbox is always open.Whether you have a question or just want to say hi, let me know !!",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send",
-    "sending": "Sending..."
-  },
-  "myProject": "My Project",
-  "contactMe": "Contact Me"
+  "footer": "Jack Liu · Senior Frontend Engineer",
+  "themeDark": "Switch to light theme",
+  "themeLight": "Switch to dark theme",
+  "language": "切換為繁體中文",
+  "skip": "Skip to content"
 }
