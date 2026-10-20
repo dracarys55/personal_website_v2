@@ -44,8 +44,14 @@ deployment > Source > GitHub Actions**.
 
 ### Reconnect jackliu.site
 
-As of 20 October 2026, `jackliu.site` did not resolve in a DNS lookup. Code
-changes cannot renew a domain or repair records at its registrar.
+As of 20 October 2026, `jackliu.site` did not resolve in a DNS lookup. The
+registry's [RDAP response](https://rdap.radix.host/rdap/domain/jackliu.site)
+reported that the domain was available for registration; GoDaddy's search also
+offered it for registration. The owner's current GoDaddy product list showed
+no domains. The similarly named website workspace does not establish domain
+ownership. Code changes cannot register a domain or repair registrar records.
+Re-registration and any payment require a separate owner decision; no purchase
+has been made.
 
 1. The owner confirmed GoDaddy as the registrar on 20 October 2026. Check the
    domain's registration status, nameservers and DNS access in that account.
