@@ -47,7 +47,8 @@ deployment > Source > GitHub Actions**.
 As of 20 October 2026, `jackliu.site` did not resolve in a DNS lookup. Code
 changes cannot renew a domain or repair records at its registrar.
 
-1. Confirm domain ownership, registration status and DNS access with the owner.
+1. The owner confirmed GoDaddy as the registrar on 20 October 2026. Check the
+   domain's registration status, nameservers and DNS access in that account.
 2. Configure the registrar's records according to GitHub's current instructions.
 3. Set repository Actions variable `SITE_BASE_PATH` to `/` before deploying to
    the custom domain, and configure `jackliu.site` in Settings > Pages.
@@ -83,8 +84,9 @@ rendering or server rewrite on GitHub Pages.
 ### Review before publishing or applying
 
 The resume is a **draft**, based on the public profile and existing portfolio.
-Confirm that the Lang LIVE role is still current, validate dates and company
-names, and add specific recent achievements. Performance percentages were not
+The owner confirmed on 20 October 2026 that the Lang LIVE role is still current.
+Validate the remaining dates and company names, and add specific recent
+achievements. Performance percentages were not
 assigned to an employer without confirmation. Weekly part-time hours remain
 unspecified. Remove the PDF's draft footer only after content approval.
 
