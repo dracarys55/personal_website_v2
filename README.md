@@ -23,48 +23,46 @@ application; it does not send mail from the website.
 
 ## GitHub Pages
 
-The prepared workflow is `docs/github-pages-workflow.yml`. The current GitHub
-token cannot write `.github/workflows/` because it lacks workflow permission,
-so this file is deliberately inactive. A repository owner can add its contents
-as `.github/workflows/pages.yml` through GitHub's editor with an appropriately
-authorized account. No access permissions were expanded automatically.
+Production uses the existing `gh-pages` branch at its root and the custom
+domain `jackliu.site`. To publish a new build with existing Git credentials:
 
-Once activated, the workflow builds pull requests without deploying them.
-Pushes to `main` and manually dispatched runs build and deploy with GitHub Pages
-Actions. Before the first deployment, select **Settings > Pages > Build and
-deployment > Source > GitHub Actions**.
+```sh
+npm run deploy
+```
 
-### Restore using the GitHub URL
+The deployment script builds for `/`, verifies the domain, clones the current
+`gh-pages` branch into a temporary directory, replaces only its generated files,
+commits the result and pushes without force. The branch history is preserved.
+GitHub Pages must use **Deploy from a branch > gh-pages > / (root)**.
 
-1. Clear the old custom domain in Settings > Pages if `jackliu.site` is still
-   configured but cannot resolve. This is a hosting setting, separate from code.
-2. Keep the default workflow base path `/personal_website_v2/`.
-3. Activate the prepared workflow, merge the reviewed change and verify the deployment at
-   `https://dracarys55.github.io/personal_website_v2/`.
+`public/CNAME` preserves the custom domain in each build. The prepared Actions
+workflow in `docs/github-pages-workflow.yml` is optional and inactive. The
+current token cannot write `.github/workflows/`; publishing through the existing
+branch avoids requiring expanded token permissions. If Actions is enabled in
+future, switch the Pages source accordingly and retain the `/` base path.
 
-### Reconnect jackliu.site
+### Domain and DNS
 
-As of 20 October 2026, `jackliu.site` did not resolve in a DNS lookup. The
-registry's [RDAP response](https://rdap.radix.host/rdap/domain/jackliu.site)
-reported that the domain was available for registration; GoDaddy's search also
-offered it for registration. The owner's current GoDaddy product list showed
-no domains. The similarly named website workspace does not establish domain
-ownership. Code changes cannot register a domain or repair registrar records.
-Re-registration and any payment require a separate owner decision; no purchase
-has been made.
+The owner re-registered `jackliu.site` at GoDaddy on 20 October 2026, with an
+expiry date of **20 October 2027**. Auto-renewal was disabled at the owner's
+explicit request; renewal must be handled manually before expiry.
 
-1. The owner confirmed GoDaddy as the registrar on 20 October 2026. Check the
-   domain's registration status, nameservers and DNS access in that account.
-2. Configure the registrar's records according to GitHub's current instructions.
-3. Set repository Actions variable `SITE_BASE_PATH` to `/` before deploying to
-   the custom domain, and configure `jackliu.site` in Settings > Pages.
-4. Verify DNS, the deployed site and HTTPS before sharing the address.
+GitHub Pages is already configured with `jackliu.site` as its custom domain.
+Use these DNS records at GoDaddy:
 
-Do not leave the project-path base configured when switching to a custom domain.
-The old `www.jackliu.info` homepage and legacy deployment scripts are removed.
+| Type | Name | Value |
+| --- | --- | --- |
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | dracarys55.github.io |
+
+Verify DNS, the Pages deployment and HTTPS after publishing. DNS and certificate
+provisioning may take time. The former `www.jackliu.info` URL is no longer used.
 
 See [GitHub Pages publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site),
-[custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+[custom domain setup](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 and [Vite static deployment](https://vite.dev/guide/static-deploy.html).
 
 To reproduce the project URL locally:

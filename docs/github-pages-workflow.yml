@@ -27,7 +27,7 @@ jobs:
         run: npm ci
       - name: Build
         env:
-          SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH || '/personal_website_v2/' }}
+          SITE_BASE_PATH: ${{ vars.SITE_BASE_PATH || '/' }}
         run: npm run build
       - uses: actions/upload-pages-artifact@v3
         if: github.event_name != 'pull_request'
