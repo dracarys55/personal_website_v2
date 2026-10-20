@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
 import { BrowserRouter, NavLink, Link, Route, Switch, useLocation } from 'react-router-dom';
 import english from './assets/i18n/en.json';
 import chinese from './assets/i18n/zh-TW.json';
@@ -28,7 +29,7 @@ function preference(key, fallback) {
 function PageEffects({ language, theme, title }) {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
-  useEffect(() => {
+  useLayoutEffect(() => {
     document.documentElement.lang = language;
     document.documentElement.dataset.theme = theme;
     document.title = title;
@@ -115,13 +116,40 @@ function Contact({ copy }) {
 export default function App() {
   const [language, setLanguage] = useState(() => preference('lang', 'en') === 'zh-TW' ? 'zh-TW' : 'en');
   const [theme, setTheme] = useState(() => preference('theme', 'dark') === 'light' ? 'light' : 'dark');
+  const languageTransition = useRef(null);
+  useEffect(() => () => {
+    languageTransition.current?.skipTransition?.();
+    languageTransition.current?.cancel?.();
+  }, []);
+
+  function toggleLanguage() {
+    // Keep the same DOM nodes so focus, scroll position and form inputs survive.
+    const update = () => flushSync(() => setLanguage(current => current === 'en' ? 'zh-TW' : 'en'));
+    languageTransition.current?.skipTransition?.();
+    languageTransition.current?.cancel?.();
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      update();
+    } else if (document.startViewTransition) {
+      const transition = document.startViewTransition(update);
+      languageTransition.current = transition;
+      // Rapid clicks can intentionally skip the previous visual transition.
+      transition.ready.catch(() => {});
+    } else {
+      update();
+      languageTransition.current = document.documentElement.animate?.(
+        [{ opacity: 0.65 }, { opacity: 1 }],
+        { duration: 280, easing: 'ease-out' },
+      );
+    }
+  }
+
   const copy = language === 'en' ? english : chinese;
   return <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
     <PageEffects language={language} theme={theme} title={copy.footer} />
     <a className="skip-link" href="#main">{copy.skip}</a>
     <header className="site-header"><Link className="wordmark" to="/" aria-label="Jack Liu home">JACK<span> .</span></Link>
       <nav aria-label={language === 'en' ? 'Main navigation' : '主要導覽'}>{Object.entries(copy.nav).map(([page, label]) => <NavLink key={page} exact to={page === 'home' ? '/' : '/' + page} activeClassName="active">{label}</NavLink>)}</nav>
-      <div className="preferences"><button type="button" onClick={() => setLanguage(language === 'en' ? 'zh-TW' : 'en')} aria-label={copy.language}>{language === 'en' ? '中文' : 'EN'}</button><button type="button" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label={theme === 'dark' ? copy.themeDark : copy.themeLight}>{theme === 'dark' ? '☼' : '☾'}</button></div>
+      <div className="preferences"><button type="button" onClick={toggleLanguage} aria-label={copy.language}>{language === 'en' ? '中文' : 'EN'}</button><button type="button" onClick={() => setTheme(current => current === 'dark' ? 'light' : 'dark')} aria-label={theme === 'dark' ? copy.themeDark : copy.themeLight}>{theme === 'dark' ? '☼' : '☾'}</button></div>
     </header>
     <main id="main" tabIndex={-1}><Switch>
       <Route exact path={['/', '/home']}><Home copy={copy} /></Route>
